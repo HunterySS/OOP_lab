@@ -2,9 +2,7 @@ package shapes;
 
 import javax.swing.*;
 
-/**
- * Factory for creating Square objects through dialog input
- */
+
 public class SquareFactory implements ShapeFactory {
 
     @Override
