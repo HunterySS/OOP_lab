@@ -2,9 +2,7 @@ package shapes;
 
 import javax.swing.*;
 
-/**
- * Factory for creating MyRectangle objects through dialog input
- */
+
 public class MyRectangleFactory implements ShapeFactory {
 
     @Override
