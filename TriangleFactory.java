@@ -2,9 +2,7 @@ package shapes;
 
 import javax.swing.*;
 
-/**
- * Factory for creating Triangle objects through dialog input
- */
+
 public class TriangleFactory implements ShapeFactory {
 
     @Override
