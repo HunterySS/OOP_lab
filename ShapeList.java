@@ -4,10 +4,7 @@ import java.awt.Graphics;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Model class that stores and manages all shapes
- * Part of the MVC pattern - this is the Model
- */
+
 public class ShapeList {
     private List<AbstractShape> shapes;
 
@@ -15,19 +12,14 @@ public class ShapeList {
         shapes = new ArrayList<>();
     }
 
-    /**
-     * Adds a shape to the list
-     * @param shape The shape to add
-     */
+    
     public void addShape(AbstractShape shape) {
         if (shape != null) {
             shapes.add(shape);
         }
     }
 
-    /**
-     * Removes the last added shape
-     */
+    
     public void removeLastShape() {
         if (!shapes.isEmpty()) {
             shapes.remove(shapes.size() - 1);
@@ -49,9 +41,7 @@ public class ShapeList {
         return shapes.size();
     }
 
-    /**
-     * @return String representation of all shapes (for debugging)
-     */
+    
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
